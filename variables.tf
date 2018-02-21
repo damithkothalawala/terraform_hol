@@ -9,7 +9,7 @@ variable "fingerprint" {
 }
 
 variable "private_key_path" {
-	default = "./credentials/oci_api_key.pem"
+	default = "./credentials/oci_api_key"
 }
 
 variable "region" {
