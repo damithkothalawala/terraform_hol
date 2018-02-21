@@ -23,7 +23,7 @@ variable "ssh_public_key" {
 	default = "./credentials/oci_ssh_key.pub"
 }
 variable "ssh_private_key" {
-	default = "./credentials/oci_ssh_key.pem"
+	default = "./credentials/oci_ssh_key"
 }
 
 variable "AD" {
