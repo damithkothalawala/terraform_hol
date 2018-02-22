@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p credentials
 curl -o terraform.zip -L "https://releases.hashicorp.com/terraform/0.11.3/terraform_0.11.3_windows_amd64.zip"
 unzip -x -d ./ terraform.zip
 rm -f terraform.zip
