@@ -8,12 +8,16 @@ variable "fingerprint" {
 	default = "please_replace_this_value"
 }
 
+variable "private_key_password" {
+	default = "provide_your_private_key_password"
+}
+
 variable "private_key_path" {
 	default = "./credentials/oci_api_key"
 }
 
 variable "region" {
-	default = "please_replace_this_value"
+	default = "eu-frankfurt-1"
 }
 
 variable "compartment_ocid" {
